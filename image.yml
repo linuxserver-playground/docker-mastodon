@@ -13,6 +13,9 @@ upstream:
   notes:
     type: github_release
     repo: glitch-soc/mastodon
+  sponsor:
+  - name: Mastodon
+    url: https://joinmastodon.org/sponsors#donate
 
 release:
   branch: glitch
