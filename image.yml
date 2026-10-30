@@ -15,6 +15,9 @@ upstream:
     type: command
     run: |-
       curl -H "Authorization: token ${GITHUB_TOKEN}" -s https://api.github.com/repos/mastodon/mastodon/releases/tags/${VERSION} | jq -r '. |.body' | sed -E 's|#([0-9]+)|[#\1](https://github.com/mastodon/mastodon/pull/\1)|g' | sed -E "s|(srcs?e?t?=\")\./|\1https://github.com/mastodon/mastodon/raw/${VERSION}/|g"
+  sponsor:
+  - name: Mastodon
+    url: https://joinmastodon.org/sponsors#donate
 
 release:
   branch: develop
