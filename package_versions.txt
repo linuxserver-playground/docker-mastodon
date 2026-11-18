@@ -450,7 +450,7 @@ marcel                                                  1.2.1             gem
 mario-redis-lock                                        1.2.1             gem                           
 math-intrinsics                                         1.1.0             npm                           
 maybe-rayon                                             0.1.1             rust-crate                    
-mbedtls3                                                3.6.7-r0          apk                           
+mbedtls3                                                3.6.8-r0          apk                           
 mdn-data                                                2.27.1            npm                           
 media-typer                                             1.1.1             npm                           
 memchr                                                  2.7.5             rust-crate                    
